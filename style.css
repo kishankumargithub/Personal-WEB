@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Use a modern font */
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container for all content */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(135deg, #6e45e2 0%, #88d3ce 100%);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* Section styling */
+section {
+  padding: 40px 20px;
+  background: white;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #6e45e2;
+}
+
+section p, section ul {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+/* Profile picture styling */
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 20px auto;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Social links styling */
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #6e45e2;
+  font-size: 1.5em;
+}
+
+.social-links a:hover {
+  color: #88d3ce;
+}
+
+/* Button styling */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #6e45e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #88d3ce;
+}
